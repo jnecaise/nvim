@@ -11,13 +11,11 @@ return {
 				sources = {
 					-- Formatting
 					f.asmfmt,
-					f.beautysh,
 					f.black,
 					f.clang_format,
 					f.cmake_format,
 					f.isort,
 					f.ktlint,
-					f.latexindent,
 					f.markdownlint,
 					f.prettier,
 					f.rubocop,
@@ -29,10 +27,7 @@ return {
 					d.checkmake,
 					d.checkstyle,
 					d.cmake_lint,
-					d.codespell,
-					d.cpplint,
-					d.eslint,
-					d.jsonlint,
+					-- d.codespell,
 					d.ktlint,
 					d.rubocop,
 					d.sqlfluff,
@@ -40,7 +35,7 @@ return {
 					d.yamllint,
 
 					-- Completion
-					c.spell,
+					-- c.spell,
 				},
 			})
 		end,
